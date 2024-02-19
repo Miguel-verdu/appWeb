@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(../imagenes/fondo\ \(3\).jpg);
+}
+
+li, a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px;
+    width: 100%;
+    background: white
+    text-align: center;
+    list-style-type: none;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0px;
+}
+
+nav {
+    height: 90px;
+    background: rgb(228, 201, 155);
+    display: flex;
+    border-radius: 12px;
+}
+
+.Logo{
+    display: flex;
+    justify-content: right;
+}
+
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: teal;
+}
+
+button:hover{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid white;
+    background-color: rgb(236, 71, 71);
+}
+
+.title{
+    color: rgb(230, 174, 34);
+    font-size: 90px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+    font-family:'Franklin Gothic Medium'
+}
+
+.texto{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(248, 232, 232);
+}
+
+.texto h1{
+    font-size: 55px;
+    margin-top: 80px;
+}
+
+.texto p{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium';
+    line-height: 35px;
+}
